@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/titleTXT"
+        android:text="IMC"
+        android:textSize="48sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <EditText
+        android:id="@+id/pesoID"
+        android:layout_marginTop="48sp"
+        android:layout_marginHorizontal="64sp"
+        android:inputType="numberDecimal"
+        android:hint="Digite o seu peso KG"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content" />
+    <EditText
+        android:id="@+id/alturaID"
+        android:layout_marginTop="18sp"
+        android:layout_marginHorizontal="64sp"
+        android:inputType="numberDecimal"
+        android:hint="Digite sua altura em CM"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/calcular"
+        android:backgroundTint="@color/teal_200"
+        android:text="Calcuar"
+        android:padding="16sp"
+        android:textSize="16dp"
+        android:layout_marginTop="48sp"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

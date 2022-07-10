@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/titleTXT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="IMC"
+        android:textSize="48sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.289" />
+
+    <EditText
+        android:id="@+id/pesoID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="64sp"
+        android:layout_marginTop="48sp"
+        android:hint="Digite o seu peso KG"
+        android:inputType="numberDecimal"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.565"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titleTXT"
+        app:layout_constraintVertical_bias="0.02" />
+
+    <EditText
+        android:id="@+id/alturaID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="64sp"
+        android:hint="Digite sua altura em CM"
+        android:inputType="numberDecimal"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="118dp"
+        tools:layout_editor_absoluteY="379dp" />
+
+    <Button
+        android:id="@+id/calcular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/teal_200"
+        android:padding="16sp"
+
+        android:text="Calcuar"
+        android:textSize="16dp"
+        tools:layout_editor_absoluteX="162dp"
+        tools:layout_editor_absoluteY="466dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

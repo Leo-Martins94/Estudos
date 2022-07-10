@@ -1,0 +1,11 @@
+C:\Users\leona\Documents\estudos\C#.NET\CFBCursos\Aula63\aula63\bin\Debug\aula63.exe.config
+C:\Users\leona\Documents\estudos\C#.NET\CFBCursos\Aula63\aula63\bin\Debug\aula63.exe
+C:\Users\leona\Documents\estudos\C#.NET\CFBCursos\Aula63\aula63\bin\Debug\aula63.pdb
+C:\Users\leona\Documents\estudos\C#.NET\CFBCursos\Aula63\aula63\obj\Debug\aula63.csproj.AssemblyReference.cache
+C:\Users\leona\Documents\estudos\C#.NET\CFBCursos\Aula63\aula63\obj\Debug\aula63.form_principal.resources
+C:\Users\leona\Documents\estudos\C#.NET\CFBCursos\Aula63\aula63\obj\Debug\aula63.Properties.Resources.resources
+C:\Users\leona\Documents\estudos\C#.NET\CFBCursos\Aula63\aula63\obj\Debug\aula63.csproj.GenerateResource.cache
+C:\Users\leona\Documents\estudos\C#.NET\CFBCursos\Aula63\aula63\obj\Debug\aula63.csproj.CoreCompileInputs.cache
+C:\Users\leona\Documents\estudos\C#.NET\CFBCursos\Aula63\aula63\obj\Debug\aula63.exe
+C:\Users\leona\Documents\estudos\C#.NET\CFBCursos\Aula63\aula63\obj\Debug\aula63.pdb
+C:\Users\leona\Documents\estudos\C#.NET\CFBCursos\Aula63\aula63\obj\Debug\aula63.Form_componente.resources
