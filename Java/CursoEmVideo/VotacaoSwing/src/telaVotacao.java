@@ -109,14 +109,13 @@ public class telaVotacao extends javax.swing.JFrame {
            lblIdade.setText(Integer.toString(idade));
            if (idade < 16){
                lblResultado.setText("<html>Não pode votar</html>");
-           }else{
-               if ((idade > 16 && idade <18) || (idade >=70)){
+           }else if ((idade > 16 && idade <18) || (idade >=70)){
                    lblResultado.setText("<html>O Voto é opicional</html>");
-               }else{
+           }else{
                    lblResultado.setText("<html>O Voto é <strong>Obrigatorio"
                            + "</strong></html>");
-               }
            }
+           
     }//GEN-LAST:event_btnVerificarActionPerformed
 
     /**
