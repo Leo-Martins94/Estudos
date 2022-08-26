@@ -18,7 +18,7 @@ public class RepeticaoFor {
         for(int cc=1; cc<=3;cc++){
             System.out.println("Cambalhota: "+cc);
         }
-        for(int c=1; c<101;c+=10){
+        for(int c=0; c<=100;c+=10){
             System.out.println(c);
         }
     }
