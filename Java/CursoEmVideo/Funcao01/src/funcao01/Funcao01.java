@@ -2,29 +2,29 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
-package javaapplication33;
+package funcao01;
+
+import java.util.HashSet;
+import java.util.Set;
 
 /**
  *
  * @author leona
  */
-public class JavaApplication33 {
+public class Funcao01 {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
         // TODO code application logic here
-       int v0 = 3;
-int v1 = v0++;
-int v2 = ++v1;
-v1 += v0;
-v2 += --v1;
-
-        System.out.println(v0);
-        System.out.println(v1);
-        System.out.println(v2);
-
+        Fatorial f = new Fatorial();
+        
+        f.setValor(5);
+        
+        System.out.print(f.getFormula());
+        System.out.println(f.getFatorial());
+         
     }
     
 }
