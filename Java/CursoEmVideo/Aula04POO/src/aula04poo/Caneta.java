@@ -7,8 +7,8 @@ public class Caneta {
     private boolean tampada;
     
     public Caneta(String m, float p){
-        setModelo(m);
-        setPonta(p);
+        this.setModelo(m);
+        this.setPonta(p);
         this.cor = "Azul";
         this.tampar();
         
