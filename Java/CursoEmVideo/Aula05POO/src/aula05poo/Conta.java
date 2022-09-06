@@ -26,6 +26,7 @@ public class Conta {
                 this.saldo += 150;
             }
             System.out.println("Conta aberta com sucesso");
+            
         }
         
     }
@@ -44,16 +45,26 @@ public class Conta {
     }
     
     public void depositar(int d){
-        this.saldo += d;
+        if(this.status == true){
+            this.setSaldo(getSaldo() + d);
+        }else{
+            System.out.println("A conta ainda não está aberta, por favor ative a conta");
+        }
+        
     }
     
     public void sacar(int s){
-        if(this.saldo <= s){
-            this.saldo -= s;
+        if(this.status == true){
+           if(this.saldo <= s){
+             this.saldo -= s;
+           }else{
+                System.out.println("Desculpe, você não possui saldo suficiente "
+                + this.saldo);
+            } 
         }else{
-            System.out.println("Desculpe, você não possui saldo suficiente "
-            + this.saldo);
+            System.out.println("Aconta ainda não está ativa, por favor ative a conta");
         }
+        
     }
     
     public void extrato(){
@@ -66,11 +77,14 @@ public class Conta {
     }
     
     public void pagarMensalidade(){
-        if(this.tipo == "cc"){
-            this.saldo -= 12;
-        }else{
-            this.saldo += 20;
+        if(this.status == true){
+            if(this.tipo == "cc"){
+                this.saldo -= 12;
+            }else{
+                this.saldo += 20;
+            }
         }
+        
     }
     
     public int getNumConta(){
