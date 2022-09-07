@@ -87,14 +87,14 @@ public class Lutador  implements Card{
         this.setCategoria();
     }
     
-    public void setCategoria(){
-        if(peso <52.2){
+    private void setCategoria(){
+        if(this.peso <52.2){
             this.categoria = "Invalido muito leve";
-        } else if(peso <= 70.3){
+        } else if(this.peso <= 70.3){
             this.categoria = "Leve";
-        } else if(peso <= 83.9){
+        } else if(this.peso <= 83.9){
             this.categoria = "Medio";
-        } else if(peso <= 120.2){
+        } else if(this.peso <= 120.2){
             this.categoria = "Pesado";
         }else{
             this.categoria = "Invalido fora de peso";
@@ -117,7 +117,7 @@ public class Lutador  implements Card{
     @Override
     public void apresentar() {
         System.out.println("Helo Heloo Heeeloooo!!!!");
-        System.out.println("Vindo do (a)" + this.getNacionalidade());
+        System.out.println("From " + this.getNacionalidade());
         System.out.println("Com " + this.getIdade() + "anos de idade");
         System.out.println("Medindo " + this.getAltura());
         System.out.println("Pesando " + this.getPeso());
