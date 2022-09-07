@@ -116,7 +116,7 @@ public class Lutador  implements Card{
 
     @Override
     public void apresentar() {
-        System.out.println("Helo Heloo Heeeloooo!!!!");
+        System.out.println("Ai vem ele ...");
         System.out.println("From " + this.getNacionalidade());
         System.out.println("Com " + this.getIdade() + "anos de idade");
         System.out.println("Medindo " + this.getAltura());

@@ -34,8 +34,11 @@ public class Aula07POO {
         l[5] = new Lutador(lutadores[5], nacionalidades[5], idades[5],alturas[5],
         pesos[5],vitorias[5],derrotas[5],empates[5]);
         
-        l[3].apresentar();
-        //l[0].status();
+        Luta UEC01 = new Luta(3);
+        
+       UEC01.marcarLuta(l[4], l[5]);
+       UEC01.lutar();
+        l[0].status();
     }
     
 }
