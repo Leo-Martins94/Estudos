@@ -1,0 +1,132 @@
+<mjml>
+  <mj-head>
+    <mj-font name="Poppins"
+       href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;600;800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@300&display=swap" />
+    <mj-font name="Manus"
+       href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" />
+    <mj-attributes>
+      <mj-body width="640px" />
+      <mj-all padding="0" font-family="Poppins" font-size="18px" color="#2f239a" margin="0px" align="center"/>
+      <mj-text align="center"  />
+      <mj-class name="destaque" color="#0243fd" />
+       <mj-accordion-element icon-wrapped-url="https://i.imgur.com/Xvw0vjq.png" icon-unwrapped-url="https://i.imgur.com/KKHenWa.png" icon-height="24px" icon-width="24px" />
+      <mj-accordion-title font-family="Roboto, Open Sans, Helvetica, Arial, sans-serif" background-color="#fff" color="#2f239a" padding="15px" font-size="18px" />
+      <mj-accordion-text font-family="Poppins, Helvetica, Arial, sans-serif" background-color="#fafafa" padding="15px" color="#2f239a" font-size="14px" />
+    </mj-attributes>
+    <mj-style>
+			.big div {
+      	font-size: 26px !important;
+      }
+      .tj div {
+      	font-size: 10px !important;
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-section background-color="#ffe660">
+    	<mj-column padding-top="20px" padding-bottom="20px">
+      	<mj-navbar hamburger="hamburger" ico-color="#2f239a">
+            <mj-navbar-link href="/gettings-started-onboard" color="#2f239a" padding-right="15px">Passagens</mj-navbar-link>
+            <mj-navbar-link href="/try-it-live" color="#2f239a"padding-right="15px">Hotéis</mj-navbar-link>
+            <mj-navbar-link href="/templates" color="#2f239a"padding-right="15px">Cruzeiros</mj-navbar-link>
+            <mj-navbar-link href="/components" color="#2f239a"padding-right="10px">Carros</mj-navbar-link>
+          <mj-navbar-link href="/components" color="#2f239a"padding-right="10px">Cartão-CVC</mj-navbar-link>
+        </mj-navbar>
+      </mj-column>
+    </mj-section>
+    <mj-hero
+      mode="fixed-height"
+      height="469px"
+      background-width="600px"
+      background-height="469px"
+      background-url=
+          "https://www.cvc.com.br/dicas-de-viagem/wp-content/uploads/2018/12/Topo-Maldivas-min.jpg"
+      background-color="#2a3448"
+      padding="50px 0px">
+      <mj-text
+       	padding-bottom="380px"
+        color="#ead320"
+        font-family="Poppins"
+        align="center"
+        font-size="40px"
+        line-height="45px"
+        font-weight="40"><strong>Na dúvida de onde ir?</strong>
+        
+      </mj-text>
+      <mj-button href="https://www.cvc.com.br/" align="center" color="#2f239a" background-color="#ffe660" font-size="25px" border-radius="15px">
+        <strong>Vai de CVC</strong>
+      </mj-button>
+    </mj-hero>
+    <mj-section>
+    	<mj-column>
+      	<mj-spacer height="25px"/>
+        	<mj-text css-class="big">
+            <p style="margin:0px;"><strong>Destinos incriveis para toda família </strong></p>
+        	</mj-text>
+        <mj-spacer height="25px"/>
+      </mj-column>
+    </mj-section>
+        <mj-section>
+      <mj-column>
+        <mj-carousel>
+          <mj-carousel-image src="https://tpc.googlesyndication.com/simgad/3502142588664981327" />
+          <mj-carousel-image src="https://tpc.googlesyndication.com/simgad/13563236383884388578" />
+          <mj-carousel-image src="https://tpc.googlesyndication.com/simgad/15157235882879158139" />
+        </mj-carousel>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+    	<mj-column>
+      	<mj-spacer height="30px" />
+        <mj-text><p style="margin:0px">Programe suas ferias, e recorde para sempre</p></mj-text>
+        <mj-spacer height="30px" />
+      </mj-column>
+    </mj-section>
+        <mj-wrapper border="1px solid #000000">
+      <mj-section border-top="1px solid #aaaaaa" border-left="1px solid #aaaaaa" border-right="1px solid #aaaaaa" padding="20px"background-color="#eeebe3">
+        <mj-column>
+          <mj-image padding="0" src="data:image/png;base64,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" width="60px" align="left" />
+        </mj-column>
+      </mj-section>
+      <mj-section border-left="1px solid #aaaaaa" border-right="1px solid #aaaaaa" padding="20px" border-bottom="1px solid #aaaaaa"background-color="#eeebe3">
+        <mj-column>
+          <mj-text font-family="Manus">Lembraças das ferias em Natal</mj-text>
+        </mj-column>
+        <mj-column border="1px solid #dddddd">
+          <mj-text padding="20px"> Leonardo Martins </mj-text>
+          <mj-divider border-width="1px" border-style="dashed" border-color="lightgrey" padding="0 20px" />
+          <mj-text padding="20px"> 2021 </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+       <mj-section>
+    	<mj-column>
+      	<mj-spacer height="30px" />
+        <mj-text><p style="margin:0px">Não esqueça de observar as regaras</p></mj-text>
+        <mj-spacer height="30px" />
+      </mj-column>
+    </mj-section>
+        <mj-section padding="20px" background-color="#ffffff">
+      <mj-column background-color="#dededd">
+        <mj-accordion>
+          <mj-accordion-element>
+            <mj-accordion-title>Why use an accordion?</mj-accordion-title>
+            <mj-accordion-text>
+              <span style="line-height:20px">
+                Because emails with a lot of content are most of the time a very bad experience on mobile, mj-accordion comes handy when you want to deliver a lot of information in a concise way.
+              </span>
+            </mj-accordion-text>
+          </mj-accordion-element>
+          <mj-accordion-element>
+            <mj-accordion-title>How it works</mj-accordion-title>
+            <mj-accordion-text>
+              <span style="line-height:20px">
+                Content is stacked into tabs and users can expand them at will. If responsive styles are not supported (mostly on desktop clients), tabs are then expanded and your content is readable at once.
+              </span>
+            </mj-accordion-text>
+          </mj-accordion-element>
+        </mj-accordion>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

@@ -1,0 +1,104 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-body width="640px" />
+      <mj-all padding="0" font-family="Arial, Helvetica, sans-serif" font-size="17px" color="#152666" margin="0px" align="center"/>
+      <mj-text align="center"  />
+      <mj-class name="destaque" color="#0243fd" />
+    </mj-attributes>
+  </mj-head>
+  <mj-body>
+    <mj-section>
+      <mj-column>
+
+        <mj-image  src="https://tim-img.s3.us-east-1.amazonaws.com/amplificador_de_email/img_banner.jpg"href="https://tim.com.br/rj/para-voce/servicos-tim/ampli?utm_source=emkt_tim_live&utm_campaign=parceria_ampli&utm_term=LP_TIM&sellerId=5a30d1f6-61a5-45b4-b5ca-34f075eb8b3a" target="_blank">											</mj-image>
+        
+      </mj-column>
+    </mj-section>
+    <mj-section>
+    	<mj-column>
+      	<mj-spacer height="33px" />
+        <mj-text><p>Na graduação Ampli, você encontra mensalidade com <br/>
+preço acessível e tempo de formação menor que o do mercado.
+          </p> </mj-text>
+        <mj-spacer height="22px" />
+        <mj-text css-class="centralizado">Melhore seu currículo e amplie suas<br/>
+chances no mercado de trabalho.</mj-text>
+        <mj-spacer height="25px" />
+        <mj-text css-class="centralizado"><strong>Aproveite esta oferta exclusiva para clientes TIM Live:</strong></mj-text>
+        <mj-spacer height="29px" />
+        <mj-text mj-class="destaque" css-class="centralizado"><strong>Graduação Digital em RADIOLOGIA na Ampli.</strong></mj-text>
+        <mj-spacer height="17px" />
+      </mj-column>
+    </mj-section>
+    <mj-section>
+    	<mj-column>
+      	<mj-image src="https://tim-img.s3.us-east-1.amazonaws.com/amplificador_de_email/img_oferta.png" height="65px" ></mj-image>
+        <mj-text mj-class="destaque" padding-bottom="27px"><p style="padding-top:3px; margin: 0 auto;"><strong>ATÉ O FINAL DO CURSO APLICANDO O CUPOM "TIM".</strong></p></mj-text>
+        <mj-image src="https://tim-img.s3.us-east-1.amazonaws.com/amplificador_de_email/img_teste.png" width="281px" height="35px" href="https://tim.com.br/rj/para-voce/servicos-tim/ampli?utm_source=emkt_tim_live&utm_campaign=parceria_ampli&utm_term=LP_TIM&sellerId=5a30d1f6-61a5-45b4-b5ca-34f075eb8b3a" target="_blank"></mj-image>
+        <mj-spacer height="23px" />
+        <mj-text><p style="margin 0 auto;"><strong>São muitos benefícios para todos os cursos Ampli:</strong></p></mj-text>
+        <mj-spacer height="25px" />
+      </mj-column>
+    </mj-section>
+    <mj-section>
+    	<mj-column>
+        <mj-text><p style="margin:0 auto;">• Aulas online sem descontar a internet do plano de celular TIM.
+         </p></mj-text>
+        <mj-text padding-top="10px"><p style="margin:0 auto;">• Aulas de inglês grátis.
+          </p></mj-text>
+        <mj-text padding-top="10px"><p style="margin:0 auto;">• 6 meses de LinkedIn Premium grátis.
+          </p></mj-text>
+        <mj-spacer height="29px" />
+    	</mj-column>
+    </mj-section>
+    <mj-section>
+    	<mj-column>
+      	<mj-text><p style="margin:0px auto">É a sua chance de fazer uma graduação<br/>
+em uma instituição com <strong>NOTA MÁXIMA</strong> no <strong>MEC.</strong></p></mj-text>
+        <mj-spacer height="37px" />
+        <mj-text><p style="margin:0px auto">Você ainda tem acesso a <strong>400 CURSOS</strong><br/>
+<strong>livres GRÁTIS</strong> usando o cupom <strong>“TIM”.</strong></p></mj-text>
+        <mj-spacer height="37px" />
+        <mj-text><p style="margin:0px auto"><strong>Inscreva-se agora e comece a<br/>
+estudar na próxima segunda-feira.</strong></p></mj-text>
+        <mj-spacer height="37px" />
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#0e4e83">
+        <mj-column background-color="#0e4e83">
+          <mj-spacer height="70px" />
+          <mj-image src="https://tim-img.s3.us-east-1.amazonaws.com/amplificador_de_email/btn_quero_me_ins.png" width="257px"href="https://tim.com.br/rj/para-voce/servicos-tim/ampli?utm_source=emkt_tim_live&utm_campaign=parceria_ampli&utm_term=LP_TIM&sellerId=5a30d1f6-61a5-45b4-b5ca-34f075eb8b3a" target="_blank"></mj-image>
+          <mj-spacer height="34px" />
+        </mj-column>
+    </mj-section>
+    <mj-section background-color="#0e4e83" padding-left="40px"padding-right="40px">
+    	<mj-group >
+      	<mj-column background-color="#0e4e83">
+        	<mj-image src="https://tim-img.s3.us-east-1.amazonaws.com/amplificador_de_email/logo_ampli.png" height="24px" width="77px" align="right"></mj-image>
+         </mj-column>
+        <mj-column>
+          <mj-text>
+          	<p style="margin:0px;font-size:30px;color:#ffffff;">|</p>
+          </mj-text>
+        </mj-column>
+        <mj-column >
+        	<mj-image src="	https://tim-img.s3.us-east-1.amazonaws.com/amplificador_de_email/logo_anhanguera.png" height="24px" width="84px"></mj-image>
+        </mj-column>
+        <mj-column>
+          <mj-text>
+          	<p style="margin:0px;font-size:30px;color:#ffffff">|</p>
+          </mj-text>
+        </mj-column>
+        <mj-column>
+        	<mj-image src="	https://tim-img.s3.us-east-1.amazonaws.com/amplificador_de_email/logo_tim.png" height="24px" width="74px"></mj-image>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+    <mj-section background-color="#0e4e83">
+    	<mj-column>
+      	<mj-spacer height="64px"/>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

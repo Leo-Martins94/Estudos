@@ -1,0 +1,77 @@
+<mjml>
+  <mj-head>
+    <mj-breakpoint width="100px" />
+  	<mj-attributes>
+      <mj-body width="640px" />
+      <mj-all padding="0" font-family="Trebuchet MS" font-size="18px" color="#000000" margin="0px" align="center"/>
+      <mj-text align="center"  />
+    </mj-attributes>
+  </mj-head>
+  <mj-body>
+    <mj-section>
+        <mj-column>
+        <mj-image src="./images/img_banner.png"></mj-image>
+        </mj-column>
+    </mj-section>
+    <mj-section background-color="#FFFFFF">
+        <mj-column padding-left="46px">
+            <mj-spacer height="30px"/>
+            <mj-text align="left">
+                <p style="margin:0px;font-size:20px;">
+                    Olá, %%NM_Participante%%</p>
+            </mj-text>
+            <mj-spacer height="26px"/>
+            <mj-text align="left">
+                <p style="margin:0px;">
+                    
+São as <strong>últimas horas para ganhar 2.000 pontos bônus,</strong> você só precisa fazer uma compra com o seu cartão <strong>LATAM Pass Itaú Mastercard<sup>®</sup> Black.</strong> Pode
+
+ser no mercado, na farmácia, abastecendo o carro, no aplicativo de delivery ou onde você quiser. <strong>Veja como é simples</strong></p>
+            </mj-text>
+            <mj-spacer height="30px"/>
+        </mj-column>
+    </mj-section>
+    <mj-section padding-left="46px" padding-right="46px" background-color="#ffffff">
+			<mj-group>
+      	<mj-column background-color="#f4f4f4" width="46%" border-radius="20px 0px 0px 20px" height="196px">
+        	<mj-spacer height="45px"/>
+            <mj-image src="./images/bullet_cartao.png" width="40px" height="40px"></mj-image>
+            <mj-spacer height="20px"/>
+            <mj-divider border-width="1px" border-color="#E5E5E5" padding-left="18px" padding-right="10px"></mj-divider>
+            <mj-divider border-width="1px" border-color="#ffffff" padding-left="18px" padding-right="10px"></mj-divider>
+            <mj-spacer height="20px"/>
+            <mj-text>
+                <p style="margin:0px;font-size:24px; padding-left:5px;color:#10004f;"><strong><em>Faça uma compra</em></strong></p>
+            </mj-text>
+            <mj-text>
+                <p style="margin:0px; padding-left:5px;">a partir de <span style="color:#ed1650;"><strong>R$100</strong></span> hoje!</p>
+            </mj-text>
+            <mj-spacer height="25px"/>
+        </mj-column>
+        <mj-column width="6%">
+            <mj-image src="./images/img_div.png" width="48px" height="196px"></mj-image>
+        </mj-column>
+        <mj-column background-color="#e6e6e6"width="46%">
+        <mj-spacer height="45px"/>
+            <mj-image src="./images/bullet_estrela.png" width="40px" height="40px"></mj-image>
+            <mj-spacer height="20px"/>
+            <mj-divider border-width="1px" border-color="#E5E5E5" padding-left="18px" padding-right="10px"></mj-divider>
+            <mj-divider border-width="1px" border-color="#f4f4f4" padding-left="18px" padding-right="10px"></mj-divider>
+            <mj-spacer height="20px"/>
+            <mj-text>
+                <p style="margin:0px;font-size:24px; padding-left:5px;color:#10004f;"><strong><em>Pronto!</em></strong></p>
+            </mj-text>
+            <mj-text>
+                <p style="margin:0px; padding-left:5px;"><span style="color:#ed1650;"><strong>Ganhe 2.000</strong></span> pontos bônus</p>
+            </mj-text>
+            <mj-spacer height="25px"/>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+    <mj-section>
+        <mj-column>
+        <mj-spacer height="28px"/>
+        </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

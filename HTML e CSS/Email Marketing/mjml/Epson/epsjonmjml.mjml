@@ -1,0 +1,96 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-body width="645px" />
+      <mj-all padding="0" font-family="Helvetica, sans-serif" font-size="17px" color="#000000" margin="0px" align="center"/>
+      <mj-text align="center"  />
+      <mj-class name="destaque" color="#0243fd" />
+    </mj-attributes>
+    <mj-style>
+			.big div {
+      	font-size: 26px !important;
+      }
+      .tj div {
+      	font-size: 10px !important;
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-section>
+    	<mj-column>
+      	<mj-image src="./images/img_banner_12.png"></mj-image>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+			<mj-column padding="30px 25px 20px 25px">
+      	<mj-text css-class="big"><p style="margin:0px auto;"><strong>OS MELHORES CLIENTES MERECEM<br/>
+
+OS MELHORES PRODUTOS</strong></p></mj-text>
+        <mj-divider border-width="1px" padding-left="25%"padding-right="25%" padding-top="10px" padding-bottom="10px"></mj-divider>
+        <mj-text padding="10px 10px 20px 10px"><p>15 de setembro – Dia do Cliente</p></mj-text>
+      </mj-column>    
+    </mj-section>
+    <mj-section>
+    	<mj-column>
+        <mj-text padding-right="45px"padding-left="45px">
+        	<p style="margin:0px; text-align: left;">Aproveite o Dia do Cliente para oferecer aos seus clientes os produtos de  qualidade que eles merecem! Com a Epson, seu cliente recebe tecnologia de confiança e garantia estendida.
+          </p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+    	<mj-column padding-top="20px"padding-bottom="20px">
+      	<mj-button color="#ffffff" font-size="22px" border-radius="0px" background-color="#00319f"><strong>Compre Agora ></strong></mj-button>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+			<mj-column>
+      	<mj-image src="./images/img_bullets_5.png"></mj-image>
+        <mj-image src="./images/img_logo_1.png"></mj-image>
+      </mj-column>
+      </mj-section>
+    <mj-section background-color="#F4F4F4">
+    	<mj-column padding-left="40px" padding-right="40px" padding-bottom="30px" padding-top="15px">
+      	<mj-text css-class="big dir">
+        	<p style="margin:0px auto;text-align:left;"><strong>Conecte-se conosco:</strong></p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#F4F4F4">
+      <mj-group>
+ 				<mj-column padding-left="30px">
+        	<mj-image src="./images/icon_social_facebook.png" width="47px" height="47px"></mj-image>
+        </mj-column>
+        <mj-column>
+        	<mj-image src="./images/icon_social_youtube.png"width="47px" height="47px"></mj-image>
+        </mj-column>
+        <mj-column>
+        	<mj-image src="./images/icon_social_twitter.png"width="47px" height="47px"></mj-image>
+        </mj-column>
+        <mj-column>
+        	<mj-image src="./images/icon_social_linkedin.png"width="47px" height="47px"></mj-image>
+        </mj-column>
+        <mj-column padding-right="30px">
+        	<mj-image src="./images/icon_social_instagram.png"width="47px" height="47px"></mj-image>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+    <mj-section background-color="#F4F4F4">
+    	<mj-column>
+      	<mj-spacer height="30px"/>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+    	<mj-column padding="35px 60px 5px 60px">
+      	<mj-text css-class="tj"><p style="margin:0px auto; text-align:justify;">1 - A garantia padrão é de 0 a 3 meses sem limite de páginas e de 4 a 12 meses ou 15.000 páginas (o que ocorrer primeiro). Para obter mais 12 meses (total Garantia de 24 meses) ou até 30.000 páginas (o que ocorrer primeiro), registre seu produto em um período máximo de 30 dias a partir da data de compra e use frascos de tinta originais da Epson. Para obter mais informações sobre o Programa de garantia estendida, visite www.epson.com.br/garantia *Garantia limitada de 3 anos de acordo com a especificações de uso do produto. Mais informações na documentação do produto. </p></mj-text>
+        <mj-spacer height="20px" />
+        <mj-text css-class="tj"><p style="margin:0px auto;">EPSON é uma marca registrada da Seiko Epson Corporation.</p></mj-text>
+        <mj-spacer height="20px" />
+         <mj-text css-class="tj"><p style="margin:0px auto;">Copyright © 2000 - 2021 Epson America, Inc.<br/>
+
+Av. Tucunaré, 720 - Tamboré, Barueri - SP - Brasil</p></mj-text>
+      </mj-column>
+      
+    </mj-section>
+  </mj-body>
+</mjml>
