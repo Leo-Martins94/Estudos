@@ -8,6 +8,6 @@ package aula12poo;
  *
  * @author leona
  */
-public class Cachorro {
+public class Cachorro extends Mamifero{
     
 }

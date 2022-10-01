@@ -8,6 +8,6 @@ package aula12poo;
  *
  * @author leona
  */
-public class Arara {
+public class Arara extends Ave {
     
 }

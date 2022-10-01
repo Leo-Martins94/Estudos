@@ -8,6 +8,6 @@ package aula12poo;
  *
  * @author leona
  */
-public class Cobra {
+public class Cobra extends Reptil{
     
 }

@@ -8,6 +8,6 @@ package aula12poo;
  *
  * @author leona
  */
-public class GoldFish {
+public class GoldFish extends Peixe {
     
 }

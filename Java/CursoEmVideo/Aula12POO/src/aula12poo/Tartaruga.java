@@ -8,6 +8,6 @@ package aula12poo;
  *
  * @author leona
  */
-public class Tartaruga {
+public class Tartaruga extends Reptil {
     
 }
