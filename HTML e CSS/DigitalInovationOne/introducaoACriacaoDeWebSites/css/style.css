@@ -52,6 +52,7 @@ a{
 .post_image{
     margin: 0 0 10px 0;
     width: 50%;
+    display: inline;
 }
 
 .post_content{

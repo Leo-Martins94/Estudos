@@ -1,0 +1,13 @@
+body{
+    writing-mode: vertical-rl;
+}
+
+h1{
+   margin-block-start: 30px;
+}
+
+span{
+    display: inline-block;
+    background-color: #ddd;
+    padding: 20px 40px;
+}
