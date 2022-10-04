@@ -1,0 +1,66 @@
+/* Definindo as variaveis */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+:root{
+    --fundoCinza: #f7f7f7;
+    --FundoTextoCinza: #c6c6c6;
+    --texto: #000000;
+    --vermelho: #ee2211;
+
+    --fontPadrao: Arial, Verdana, Helvetica, sans-serif;
+    --sizeParagrafo: 
+}
+
+body{
+   background-color: #f4f4f4;
+   font-family: var(--fontPadrao);
+   color: var(--texto);
+}
+
+.content{
+    max-width: 1000px;
+    min-width: 300px;
+    margin: auto;
+    background-color: var(--fundoCinza);
+    box-shadow: 3px 3px 4px 3px #3d3c3c51;
+}
+
+.mainHeader{
+    padding-top: 60px;
+}
+
+.mainHeader img{
+    display: block;
+    margin: auto;
+}
+
+nav{
+    padding-top: 60px;
+}
+
+.flexNav{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.navItem{
+    background-color: #ffffff;
+    padding: 20px;
+    text-transform: uppercase;
+}
+
+.mainGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.bicicleta{
+    width: 100%;
+}
+
+
+
