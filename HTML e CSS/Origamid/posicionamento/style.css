@@ -52,6 +52,7 @@ nav{
     background-color: #ffffff;
     padding: 20px;
     text-transform: uppercase;
+    border-radius: 4px;
 }
 
 .mainGrid{
@@ -127,4 +128,11 @@ main{
 .vantagemBox p{
     grid-column: 2;
     padding: 0 20px 10px 10px  ;
+}
+
+footer{
+    text-align: center;
+    margin-top: 60px;
+    padding: 20px;
+    background-color: #edebeb;
 }
