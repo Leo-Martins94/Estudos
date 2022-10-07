@@ -1,0 +1,20 @@
+nav{
+    height: 100vh;
+    background: lightblue;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 60px;
+}
+
+article{
+    padding: 20px;
+    width: calc(100vw - 75px);
+    box-sizing: border-box;
+    margin-left: 60px;
+    background-color: lightcoral;
+}
+
+p{
+    margin-bottom: 400px;
+}
