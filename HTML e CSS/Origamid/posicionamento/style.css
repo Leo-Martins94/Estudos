@@ -8,9 +8,10 @@
     --FundoTextoCinza: #c6c6c6;
     --texto: #000000;
     --vermelho: #ee2211;
+    --btnHover:#900;
 
     --fontPadrao: Arial, Verdana, Helvetica, sans-serif;
-    --sizePadrao: 20px; 
+    --sizePadrao: 1rem; 
 }
 
 body{
@@ -29,7 +30,7 @@ body{
 }
 
 .mainHeader{
-    padding-top: 60px;
+    padding-top: 3rem;
 }
 
 .mainHeader img{
@@ -38,53 +39,79 @@ body{
 }
 
 nav{
-    padding-top: 60px;
+    padding-top: 1.5rem;
 }
 
 .flexNav{
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
     justify-content: center;
 }
 
-.navItem{
-    background-color: #ffffff;
-    padding: 20px;
-    text-transform: uppercase;
-    border-radius: 4px;
+.nav{
+    list-style: none;
 }
+
+.nav a{
+    text-decoration: none;
+    color: var(--texto);
+}
+
+.navItem:hover{
+    border: 0.20rem solid var(--vermelho);
+    transition: 0.3s;
+}
+
+.navItem{
+    display: inline-block;
+    margin:1.5rem  1rem 0rem 0rem;
+    background-color: #ffffff;
+    padding: 1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 4px;
+
+}
+
 
 .mainGrid{
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
 
+
+
 main{
     padding-top: 60px;
 }
 
-.detalhe{
-    position: relative;
-    top: 30px;
-    margin: auto;
-    width: 80px;
-    height: 5px;
+.descricao::before{
+    content: '';
+    width: 4.75rem;
+    height: 0.35rem;
     background-color: var(--vermelho);
+    margin: auto;
+    position: relative;
+    left: 12.15rem;
+    top: -1.53rem;
 }
-
 .descricao{
     display: grid;
     align-content: center;
     justify-content: right;
     text-align: right;
     background-color: #ffffff;
-    padding: 0 30px 0 15px;
+    padding: 0 1.50rem 0 0.75rem;
 
 }
 
 .descricaoTxt{
     margin-top: 20px;
+}
+
+.mainLink:hover{
+    background-color: var(--btnHover);
+    transition: 0.3s;
 }
 
 .mainLink{
@@ -97,6 +124,7 @@ main{
 }
 .bicicleta{
     width: 100%;
+
 }
 
 .vantagemTitulo{
@@ -112,11 +140,19 @@ main{
 .vantagens{
     background-color: #ffffff;
 }
+
+.vantagens div:nth-child(odd){
+    background-color: #f7f7f7;
+}
+.vantagemBox:hover{
+    border-left: 0.25rem solid var(--vermelho);
+}
+
 .vantagemBox{
     display: grid;
     grid-template-columns: 100px 1fr;
     align-content: center;
-    margin: 40px 30px 10px 0px;
+    padding: 40px 30px 10px 0px;
 
 }
 
