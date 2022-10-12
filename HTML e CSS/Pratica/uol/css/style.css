@@ -1,0 +1,29 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.nav-login{
+    display: flex;
+    padding: 20px 30px;
+    background-color: #1A1A1A;
+}
+
+.nav-login ul{
+    margin: 0px;
+    list-style: none
+}
+
+.nav-login ul li{
+    display: inline-block;
+}
+
+.nav-login-item{
+    margin: 0 10px 0 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #ffffff;
+}
