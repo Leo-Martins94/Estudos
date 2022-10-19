@@ -33,4 +33,7 @@ img{
         grid-template-columns: 1fr;
         gap: 1rem;
     }
+    img{
+        display: none;
+    }
 }
