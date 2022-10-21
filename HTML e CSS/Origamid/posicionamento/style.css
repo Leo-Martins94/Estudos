@@ -89,16 +89,15 @@ main{
     padding-top: 5%;
 }
 
-.descricao::before{
-    content: '';
-    width: 4.75rem;
-    height: 0.35rem;
-    background-color: var(--vermelho);
-    margin: auto;
-    position: relative;
-    left: 15.80rem;
-    top: -4.53rem;
-}
+.descricao::before {
+    content: "";
+    width: 60px;
+    height: 4px;
+    background: #e21;
+    position: absolute;
+    top: 250px;
+    right: 642px;
+  }
 .descricao{
     display: grid;
     align-content: center;
