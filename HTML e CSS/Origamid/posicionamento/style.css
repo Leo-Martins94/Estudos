@@ -75,6 +75,7 @@ nav{
     text-transform: uppercase;
     font-weight: bold;
     border-radius: 4px;
+    border: 0.20rem solid var(--fundoCinza);
 }
 
 
@@ -87,6 +88,7 @@ nav{
 
 main{
     padding-top: 5%;
+    position: relative;
 }
 
 .descricao::before {
@@ -95,8 +97,8 @@ main{
     height: 4px;
     background: #e21;
     position: absolute;
-    top: 250px;
-    right: 642px;
+    top: 65px;
+    right: 465px;
   }
 .descricao{
     display: grid;
@@ -177,12 +179,20 @@ footer{
     min-width: 320px;
 }
 
+@media (max-width: 800px){
+    .flexNav .nav{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .descricao::before {
+        top: 65px;
+        right: 355px;
+      }
+}
+
 @media (max-width: 430px ){
     .mainHeader{
         padding-top: 1.5rem;
-    }
-    .flexNav ul{
-        margin: 0 20.5%;
     }
     .mainGrid{
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -191,9 +201,15 @@ footer{
         order: 2;
         margin-top: 5%;
         padding-bottom: 5%;
+        justify-content: center;
+        text-align: center;
+    }
+    .mainLink{
+        place-self: center;
     }
     .vantagemTitulo{
         order: 3;
+        text-align: center;
     }
     .vantagens{
         order: 4;
@@ -210,10 +226,18 @@ footer{
 }
 
 @media (max-width: 325px ){
+    
     .flexNav ul{
-        margin: 0 10.5%;
+        margin: 0px 0px 0px 45px;
     }
+
     .descricao{
         padding-bottom: 5%;
     }
+
+    .vantagemTitulo{
+        padding: 0px 10px 0px 10px;
+    }
+
+
 }

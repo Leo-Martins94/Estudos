@@ -20,3 +20,11 @@ img{
     max-width: 100%;
     display: block;
 }
+
+.subtitulo{
+    font-size: 8rem;
+    line-height: 1;
+    text-transform: uppercase;
+    max-width: 5ch;
+    word-break: break-all;
+}
