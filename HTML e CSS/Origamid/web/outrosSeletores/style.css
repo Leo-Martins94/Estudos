@@ -1,0 +1,33 @@
+[required]{
+    border: 2px solid red;
+}
+
+[name='email']{
+    border: 2px solid blue;
+}
+
+[href^='#']{
+    border: 2px solid green;
+}
+
+[href$='origamid.com']{
+    border: 2px solid gold;
+}
+
+section > h2 {
+    color: tomato;
+}
+
+p{
+    margin: 0px;
+    font-size: 1.5rem;
+}
+
+article{
+    background: lightgreen;
+    padding: 10px;
+}
+
+p + p{
+    margin-top: 20px;
+}
