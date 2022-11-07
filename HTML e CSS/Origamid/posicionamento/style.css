@@ -5,17 +5,32 @@
 }
 :root{
     --fundoCinza: #f7f7f7;
+    --fundo: #f4f4f4;
     --FundoTextoCinza: #c6c6c6;
     --texto: #000000;
     --vermelho: #ee2211;
     --btnHover:#900;
+    --detalhe: #e21;
 
     --fontPadrao: Arial, Verdana, Helvetica, sans-serif;
     --sizePadrao: 1rem; 
+
+}
+
+@media (prefers-color-scheme: dark){
+    :root{
+        --fundo: #e2e2e2;
+        --fundoCinza: #e5e5e5;
+        --FundoTextoCinza: #d9d9d9;
+        --texto: #ffffff;
+        --vermelho: #a409a2;
+        --btnHover:#4f094e;
+        --detalhe: rgb(108, 15, 126);
+    } 
 }
 
 body{
-   background-color: #f4f4f4;
+   background: var(--fundo);
    font-family: var(--fontPadrao);
    font-size: var(--sizePadrao);
    color: var(--texto);
@@ -95,7 +110,7 @@ main{
     content: "";
     width: 60px;
     height: 4px;
-    background: #e21;
+    background: var(--detalhe);
     position: absolute;
     top: 65px;
     right: 465px;
