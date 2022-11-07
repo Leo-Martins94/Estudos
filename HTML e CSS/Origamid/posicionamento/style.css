@@ -17,11 +17,12 @@
 
 }
 
+
 @media (prefers-color-scheme: dark){
     :root{
-        --fundo: #e2e2e2;
-        --fundoCinza: #e5e5e5;
-        --FundoTextoCinza: #d9d9d9;
+        --fundo: #010101;
+        --fundoCinza: #0f0e0e;
+        --FundoTextoCinza: #ffffff;
         --texto: #ffffff;
         --vermelho: #a409a2;
         --btnHover:#4f094e;
@@ -40,7 +41,7 @@ body{
     max-width: 1000px;
     min-width: 320px;
     margin: 0 auto;
-    background-color: var(--fundoCinza);
+    background-color: var(--fundo);
     box-shadow: 3px 3px 4px 3px #3d3c3c51;
 }
 
@@ -49,7 +50,7 @@ body{
     margin: 0 auto;
 }
 
-.mainHeader img{
+.mainHeader svg{
     display: block;
     margin: auto;
 }
@@ -85,7 +86,7 @@ nav{
 .navItem{
     display: inline-block;
     margin:1.5rem  1rem 0rem 0rem;
-    background-color: #ffffff;
+    background-color: var(--fundo);
     padding: 1rem;
     text-transform: uppercase;
     font-weight: bold;
@@ -120,7 +121,7 @@ main{
     align-content: center;
     justify-content: right;
     text-align: right;
-    background-color: #ffffff;
+    background-color: var(--fundo);
     padding: 0 1.50rem 0 0.75rem;
 
 }
@@ -139,7 +140,7 @@ main{
     margin-top: 20px;
     padding: 15px;
     background-color: var(--vermelho);
-    color: #ffffff;
+    color: var(--texto);
     border-radius: 4px;
 }
 .bicicleta{
@@ -158,11 +159,11 @@ main{
 }
 
 .vantagens{
-    background-color: #ffffff;
+    background-color: var(--fundo);
 }
 
 .vantagens div:nth-child(odd){
-    background-color: #f7f7f7;
+    background-color: var(--fundoCinza);
 }
 .vantagemBox:hover{
     border-left: 0.25rem solid var(--vermelho);
@@ -190,7 +191,7 @@ footer{
     text-align: center;
     margin-top: 8%;
     padding: 15px 0px 15px 0px;
-    background-color: #edebeb;
+    background-color: var(--fundoCinza);
     min-width: 320px;
 }
 

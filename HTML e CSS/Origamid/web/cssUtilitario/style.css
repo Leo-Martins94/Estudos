@@ -1,0 +1,35 @@
+/* CSS */
+.titulo{
+    font-size: 40px;
+    line-height: 50px;
+    color: #a8f;
+    background: #111;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* CSS Utilitário */
+.texto-grande{
+    font-size: 40px;
+    line-height: 50px;
+}
+
+.cor-primaria{
+    color: #a8f;
+}
+
+.bg-escuro{
+    background: #111;
+}
+
+.p-1{
+    padding: 10px;
+}
+
+.p-2{
+    padding: 20px;
+}
+
+.br{
+    border-radius: 5px;
+}
