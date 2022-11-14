@@ -20,23 +20,23 @@
 .header-menu a {
     display: inline-block;
     position: relative;
-    font-size: 18px;
     padding: 16px 0px;
 }
 
 .header-menu a:after{
-    content: '';
+    content: "";
     display: block;
     position: absolute;
     height: 2px;
-    width: 0%;
-    background-color:var(---cor-0);
+    width: 0px;
+    background:var(--cor-0);
+    transition: 0.5s;
     margin-top: 4px;
 }
 
-.header-menu a:hover::after{
+.header-menu a:hover:after{
     width: 100%;
-    transition: 0.5s;
+
 }
 
 
