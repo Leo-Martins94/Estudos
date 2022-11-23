@@ -18,6 +18,6 @@
 @import "./seguros/perguntas.css";
 @import "./termos/termos.css";
 @import "./bicicletas/bicicletas.css";
-@import "./bicicleta/bicicleta.css"
-
+@import "./bicicleta/bicicleta.css";
+@import "./bicicleta/seguro.css";
 
