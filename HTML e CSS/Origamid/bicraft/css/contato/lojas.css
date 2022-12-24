@@ -1,0 +1,14 @@
+.lojas{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0 40px;
+    padding: 120px 0;
+}
+
+.lojas h2{
+    grid-column: 1/-1;
+}
+
+.lojas img{
+    border-radius: 4px 4px 0 0;
+}
