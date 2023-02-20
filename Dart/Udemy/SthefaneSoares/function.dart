@@ -15,3 +15,5 @@ double soma(double a, double b){
   double resultado = a + b;
   return resultado;
 }
+
+double calcArea ( double raio) => 3.14 * raio * raio;
