@@ -1,54 +1,42 @@
 import 'package:meu_app/meu_app.dart' as meu_app;
+import 'dart:io';
+import 'dart:convert';
 
+import 'package:test/test.dart';
 void main(List<String> arguments) {
-   String texto = "Flutter e dart na DIO";
-   var texto2 = "DIO";
-   String texto3 = texto + texto2;
+   print("Bem vindos a nossa calculadora!");
+   print("Informe o primeiro número");
+   var line = stdin.readLineSync(encoding: utf8);
+   var numero1 = double.parse(line ?? "0");
 
-   print(int.tryParse(texto3));
-   print(texto.contains(texto2));
-   print(texto.substring(5));
-   print(texto.replaceAll("a", "@"));
-  
+   print("Informe o segundo número:");
+   line = stdin.readLineSync(encoding: utf8);
+   var numero2 = double.parse(line ?? "0");
 
-   int numero1 = 1;
-   var numero2 = 2;
-   int numero3 = numero1 + numero2;
+   print("Informe a operação (+, -, *, /)");
+   line = stdin.readLineSync(encoding: utf8);
+   var operacao = line ?? "";
 
-   print("Retorna verdadeiro se a soma for par");
-   print(numero1.isEven);
-   print(numero2.isEven);
+   double resultado = 0.0;
 
-  print("Retorna verdadeiro se for impar");
-  print(numero3.isOdd);
+   switch(operacao){
+    case "+":
+      resultado = numero1 + numero2;
+    break;
+    case "-":
+      resultado = numero1 - numero2;
+    break;
+    case "*":
+      resultado = numero1 * numero2;
+    break;
+    case "/":
+      resultado = numero1 / numero2;
+    break;
+    default:
+      print("Operação inválida");
+      exit(0);
+   }
 
-  print("É um numero");
-  print(numero2.isNaN);
+   print("O resultado: $numero1 $operacao $numero2 = $resultado");
 
-  print("É negativo");
-  print(numero3.isNegative);
-
-   List<String> lista = [];
-   lista.add("A");
-   lista.add("B");
-   var lista1 = [];
-   lista1.add(1);
-   lista1.add(true);
-   lista1.add("value");
-
-   double d1 = 3.3;
-   double d2 = 2.8;
-   print("Remove ponto flutuante");
-   print(d1.truncate());
-   print("Converte para inteiro");
-   print(d2.toInt());
-   print("Aredonda para cima");
-   print(d1.ceil());
-   print("Arredonda para baixo");
-   print(d2.floor());
-
-   Map<String, dynamic> map1 = Map<String,dynamic>();
-
-   map1.addAll({"nome":"Leo","Sobrenome":"Martins","Nascimento":DateTime(1994,07,21)});
-   print(map1);
 }
